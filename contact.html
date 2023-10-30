@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-agrosearch</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <!-- <link rel="stylesheet" href=""> -->
+
+    <style>
+      .main {
+        min-height: 700px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="topbar">
+      <div class="container">
+        <a href="#" class="logo">
+          <!-- <img src="/images/logo.png" alt="logo" id="logo"> -->
+
+          <span id="logo-agro"> agro<span id="logo-search">Search</span> </span>
+        </a>
+        <ul class="menu">
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./seed/seed.html">Seeds</a></li>
+          <li><a href="./fertlizers/fertlizers.html">Fertilizers</a></li>
+          <li><a href="./machines/machines.html">Machines</a></li>
+          <li><a href="./weatherApp/index.htmll">Services</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      <form
+        action="post"
+        method="https://docs.google.com/forms/d/e/1FAIpQLSfk8Hf1IVRGh4BZkaU4NLRUeLKvzgv9Y4fgz2BXXw9mrt9fYw/viewform?embedded=true"
+      >
+        <div class="form-group">
+          <h1 style="text-align: center">Contact Us</h1>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h3>agroSearch</h3>
+        <p>
+          Introducing "agroSearch" is a ultimate platform for farmers that help
+          to increase there crop yields
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2023 agroSearch</p>
+      </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/bf520e6492.js"></script>
+  </body>
+</html>
